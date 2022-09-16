@@ -4,7 +4,7 @@ public class MyProject1 {
 
 
     int children = 2;
-    //Number of children are 2
+    //Number of children are two
     static String familyName = "VyasFamily";
 
 
