@@ -8,7 +8,7 @@ public class MyProject1 {
     static String familyName = "VyasFamily";
 
 
-    public static int OurFamily() {
+    public static int ourFamily() {
         int child = 2;
         int adult = 4;
         int total = 6;
@@ -28,7 +28,7 @@ public class MyProject1 {
 
         MyProject1 familyDetails = new MyProject1();
         familyDetails.familyMember(4, 2);
-        System.out.println("Adult Members : " + OurFamily());
+        System.out.println("Adult Members : " + ourFamily());
         MyProject1 familyDetail = new MyProject1();
         int y = familyDetail.children;
         System.out.println("ChildMembers  :" + y);

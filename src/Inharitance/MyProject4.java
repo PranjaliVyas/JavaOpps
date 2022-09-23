@@ -1,7 +1,5 @@
 package Inharitance;
 
-import java.io.PrintStream;
-
 public class MyProject4 {
 
 int Total1=18;

@@ -15,7 +15,7 @@ public void myCousins(){
 }
 
     static int vyasCousins(int M, int  h, int m) {
-    return M+m+h;
+        return  M+m+h;
     }
 
 
@@ -29,7 +29,7 @@ public void myCousins(){
         // non-static method and variable of parent class can be accessed by object creation from current class and other class
         MyProject1 obj1 =new MyProject1();
         obj1.familyMember(4,2);
-          MyProject1.OurFamily();// static method and variable can access by class name from other and current class
+          MyProject1.ourFamily();// static method and variable can access by class name from other and current class
 // nonstatic method through inheritance method and variable can access by object of current class as it acquire all property from parent class
         MyProject2 fDetail =new MyProject2();
         //from parent class MyProject1
@@ -40,7 +40,7 @@ public void myCousins(){
         System.out.println(fDetail.t);
 //static method through inheritance method and variable can access through current class as it require all the property from parent class
       // from parent class
-        MyProject2.OurFamily();
+        MyProject2.ourFamily();
         System.out.println(MyProject2.familyName);
 vyasCousins(2,2,2);
         System.out.println(BCousins);
