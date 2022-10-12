@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class LinkList {
 
     public static void main(String[] args) {
-        LinkedList<String> fruits = new LinkedList<String>();
+        LinkedList<String> fruits = new LinkedList<>();
         fruits.add("Orange");
         fruits.add("Banana");
         fruits.add("peach");
@@ -21,7 +21,5 @@ public class LinkList {
         System.out.println(fruits.get(3));
         fruits.set(4, "Kiwi");
         System.out.println(fruits);
-
-
     }
 }

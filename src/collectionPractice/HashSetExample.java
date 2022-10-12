@@ -15,7 +15,7 @@ public class HashSetExample {
         numbers.add(5);
         numbers.add(7);
         System.out.println(numbers);
-        HashSet<String> name = new HashSet<String>();
+        HashSet<String> name = new HashSet<>();
 
 
 // show which number contain 1 to 10 is found
