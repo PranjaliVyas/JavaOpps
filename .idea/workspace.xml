@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab94718f-c544-427d-b90c-914fbd3d7878" name="Changes" comment="Updated code">
-      <change afterPath="$PROJECT_DIR$/src/Excaption/ExampleOfException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionPractice/HashMapPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/EmpInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/EmpName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Encapsulation/EncapsulationPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Encapsulation/EncapsulationResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +43,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExampleOfException">
+  <component name="RunManager" selected="Application.EmpSalary">
     <configuration name="ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collectionPractice.ArrayList" />
       <module name="JavaOpps" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="collectionPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.EmpSalary" />
+      <module name="JavaOpps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectionPractice.LinkList" />
-      <module name="JavaOpps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collectionPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmpSalary" />
         <item itemvalue="Application.ExampleOfException" />
         <item itemvalue="Application.HashMapPractice" />
         <item itemvalue="Application.HashSet" />
         <item itemvalue="Application.ArrayList" />
-        <item itemvalue="Application.LinkList" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665566944242</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated code">
+      <created>1665576022515</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665576022515</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
