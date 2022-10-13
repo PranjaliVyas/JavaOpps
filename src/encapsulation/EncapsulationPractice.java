@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 // idea behind encapsulation is to hide the implimentation details from users. If data member is private it means it can only be accessed within the same class.
 // No outside CLASS Can access private data member(variable) of other class.
 //In object oriented programming, encapsulation is define as binding togather the data and the functions that manipulates them.
@@ -11,7 +11,7 @@ public class EncapsulationPractice {
 
     private  int HouseNo;
     // hiding the variable of a class from other classes and giving access to them only through methods (SETTER AND GETTER). Hance, encapsulation in java language means binding the data (variables)
-    //with the code(methods settr and getter)
+    //with the code(methods setter and getter)
     // getter amd setter Methods
 
     public  long getMyNumber() {
@@ -21,7 +21,7 @@ public class EncapsulationPractice {
     public  String getMyName(){
         return myName;
     }
-    public int getHouseNo(int ){
+    public int getHouseNo(){
       return  HouseNo;
     }
 
